@@ -1,0 +1,96 @@
+<RCC>
+    <qresource prefix="/background"/>
+    <qresource prefix="/startauto"/>
+    <qresource prefix="/start"/>
+    <qresource prefix="/home"/>
+    <qresource prefix="/manual"/>
+    <qresource prefix="/setting"/>
+    <qresource prefix="/bg"/>
+    <qresource prefix="/Background"/>
+    <qresource prefix="/mainmenu"/>
+    <qresource prefix="/BG">
+        <file>time setting/time setting.jpg</file>
+        <file>autorun/autorun.jpg</file>
+        <file>main menu/main menu (new).jpg</file>
+        <file>setting/setting page.jpg</file>
+        <file>autorun setting/autorun setting.jpg</file>
+        <file>position setting/position setting.jpg</file>
+        <file>manual/manual.jpg</file>
+        <file>setting_selectprogram/setting_selectprogram.png</file>
+    </qresource>
+    <qresource prefix="/Button">
+        <file>setting/back.png</file>
+        <file>setting/position.png</file>
+        <file>setting/run.png</file>
+        <file>setting/time.png</file>
+        <file>main menu/HOME.png</file>
+        <file>main menu/MANUAL.png</file>
+        <file>main menu/off button.png</file>
+        <file>main menu/off.png</file>
+        <file>main menu/on button.png</file>
+        <file>position setting/manual button.png</file>
+        <file>main menu/on_green.png</file>
+        <file>main menu/start auto.png</file>
+        <file>position setting/back position setting.png</file>
+        <file>position setting/save.png</file>
+        <file>autorun setting/add.png</file>
+        <file>autorun setting/back.png</file>
+        <file>autorun setting/remove.png</file>
+        <file>autorun setting/save.png</file>
+        <file>time setting/slider.png</file>
+        <file>autorun/back.png</file>
+        <file>autorun/cancel.png</file>
+        <file>autorun/pause.png</file>
+        <file>autorun/percentage slide.png</file>
+        <file>main menu/close.png</file>
+        <file>main menu/SETTING.png</file>
+        <file>manual/back.png</file>
+        <file>manual/0.1.png</file>
+        <file>manual/1.png</file>
+        <file>manual/fast.png</file>
+        <file>manual/heater on.png</file>
+        <file>manual/heater.png</file>
+        <file>manual/left cylinder.png</file>
+        <file>manual/left.png</file>
+        <file>manual/release.png</file>
+        <file>manual/right cylinder.png</file>
+        <file>manual/right.png</file>
+        <file>manual/rotate.png</file>
+        <file>manual/water on.png</file>
+        <file>manual/water.png</file>
+        <file>manual/0.1 on.png</file>
+        <file>manual/1 on.png</file>
+        <file>manual/fast on.png</file>
+        <file>time setting/minus.png</file>
+        <file>time setting/plus.png</file>
+        <file>position setting/down on.png</file>
+        <file>position setting/up on.png</file>
+        <file>position setting/down.png</file>
+        <file>position setting/up.png</file>
+        <file>time setting/minus on.png</file>
+        <file>time setting/plus on.png</file>
+        <file>time setting/label.png</file>
+        <file>manual/up on.png</file>
+        <file>manual/up.png</file>
+        <file>manual/down on.png</file>
+        <file>manual/down.png</file>
+        <file>manual/down middle on.png</file>
+        <file>manual/down middle.png</file>
+        <file>manual/up middle on.png</file>
+        <file>manual/up middle.png</file>
+        <file>manual/left middle on.png</file>
+        <file>manual/left middle.png</file>
+        <file>manual/right middle on.png</file>
+        <file>manual/right middle.png</file>
+        <file>manual/go on.png</file>
+        <file>manual/go.png</file>
+        <file>manual/rotate on.png</file>
+        <file>manual/release on.png</file>
+        <file>manual/left cylinder on.png</file>
+        <file>manual/right cylinder on.png</file>
+        <file>manual/speed.png</file>
+        <file>manual/icon/speed.png</file>
+        <file>setting_selectprogram/cancel.png</file>
+        <file>setting_selectprogram/ok.png</file>
+    </qresource>
+</RCC>

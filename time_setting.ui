@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Time_setting</class>
+ <widget class="QDialog" name="Time_setting">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog#Time_setting {
+background-image: url(:/BG/time setting/time setting.jpg);
+}
+
+QPushButton#manual {
+background-color: transparent;
+border-image: url(:/Button/position setting/manual button.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#save {
+background-color: transparent;
+border-image: url(:/Button/position setting/save.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#back {
+background-color: transparent;
+border-image: url(:/Button/position setting/back position setting.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#minus1 {
+background-color: transparent;
+border-image: url(:/Button/time setting/minus.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#minus1:pressed {
+border-image: url(:/Button/time setting/minus on.png);
+}
+
+QPushButton#plus1 {
+background-color: transparent;
+border-image: url(:/Button/time setting/plus.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#plus1:pressed {
+border-image: url(:/Button/time setting/plus on.png);
+}
+
+QPushButton#minus2 {
+background-color: transparent;
+border-image: url(:/Button/time setting/minus.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#minus2:pressed {
+border-image: url(:/Button/time setting/minus on.png);
+}
+
+QPushButton#plus2 {
+background-color: transparent;
+border-image: url(:/Button/time setting/plus.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#plus2:pressed {
+border-image: url(:/Button/time setting/plus on.png);
+}
+
+QPushButton#minus3 {
+background-color: transparent;
+border-image: url(:/Button/time setting/minus.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#minus3:pressed {
+border-image: url(:/Button/time setting/minus on.png);
+}
+
+QPushButton#plus3 {
+background-color: transparent;
+border-image: url(:/Button/time setting/plus.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#plus3:pressed {
+border-image: url(:/Button/time setting/plus on.png);
+}
+
+QPushButton#minus4 {
+background-color: transparent;
+border-image: url(:/Button/time setting/minus.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#minus4:pressed {
+border-image: url(:/Button/time setting/minus on.png);
+}
+
+QPushButton#plus4 {
+background-color: transparent;
+border-image: url(:/Button/time setting/plus.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#plus4:pressed {
+border-image: url(:/Button/time setting/plus on.png);
+}
+
+QPushButton#minus5 {
+background-color: transparent;
+border-image: url(:/Button/time setting/minus.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#minus5:pressed {
+border-image: url(:/Button/time setting/minus on.png);
+}
+
+QPushButton#plus5 {
+background-color: transparent;
+border-image: url(:/Button/time setting/plus.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#plus5:pressed {
+border-image: url(:/Button/time setting/plus on.png);
+}
+
+QPushButton#minus6 {
+background-color: transparent;
+border-image: url(:/Button/time setting/minus.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#minus6:pressed {
+border-image: url(:/Button/time setting/minus on.png);
+}
+
+QPushButton#plus6 {
+background-color: transparent;
+border-image: url(:/Button/time setting/plus.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#plus6:pressed {
+border-image: url(:/Button/time setting/plus on.png);
+}
+
+QPushButton#minus7 {
+background-color: transparent;
+border-image: url(:/Button/time setting/minus.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#minus7:pressed {
+border-image: url(:/Button/time setting/minus on.png);
+}
+
+QPushButton#plus7 {
+background-color: transparent;
+border-image: url(:/Button/time setting/plus.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#plus7:pressed {
+border-image: url(:/Button/time setting/plus on.png);
+}
+
+QLabel#label_1 {
+background-color: transparent;
+border-image: url(:/Button/time setting/label.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QLabel#label_2 {
+background-color: transparent;
+border-image: url(:/Button/time setting/label.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QLabel#label_3 {
+background-color: transparent;
+border-image: url(:/Button/time setting/label.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QLabel#label_4 {
+background-color: transparent;
+border-image: url(:/Button/time setting/label.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QLabel#label_5 {
+background-color: transparent;
+border-image: url(:/Button/time setting/label.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QLabel#label_6 {
+background-color: transparent;
+border-image: url(:/Button/time setting/label.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QLabel#label_7 {
+background-color: transparent;
+border-image: url(:/Button/time setting/label.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+</string>
+  </property>
+  <widget class="QSlider" name="release_slide">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>340</y>
+     <width>451</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>10000</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QSlider" name="grab_slide">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>230</y>
+     <width>451</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>10000</number>
+   </property>
+   <property name="singleStep">
+    <number>1</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QSlider" name="absorbsub_slide">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>450</y>
+     <width>451</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>10000</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QSlider" name="releasesub_slide">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>570</y>
+     <width>451</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>10000</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QSlider" name="heater_slide">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>220</y>
+     <width>451</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>10000</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QSlider" name="water_slide">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>380</y>
+     <width>451</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>10000</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QSlider" name="rotate_slide">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>550</y>
+     <width>451</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>10000</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="manual">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>714</y>
+     <width>288</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="save">
+   <property name="geometry">
+    <rect>
+     <x>751</x>
+     <y>713</y>
+     <width>268</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>1014</x>
+     <y>712</y>
+     <width>270</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_1">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>260</y>
+     <width>47</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>370</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>480</y>
+     <width>47</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>600</y>
+     <width>47</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>250</y>
+     <width>47</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>410</y>
+     <width>47</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>580</y>
+     <width>47</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="minus1">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>265</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="plus1">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>265</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="plus2">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>380</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="plus3">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>490</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="plus4">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>610</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="minus2">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>380</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="minus3">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>490</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="minus4">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>610</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="minus5">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>260</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="minus6">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>420</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="minus7">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>590</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="plus5">
+   <property name="geometry">
+    <rect>
+     <x>1140</x>
+     <y>260</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="plus6">
+   <property name="geometry">
+    <rect>
+     <x>1140</x>
+     <y>420</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="plus7">
+   <property name="geometry">
+    <rect>
+     <x>1140</x>
+     <y>590</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

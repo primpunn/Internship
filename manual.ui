@@ -1,0 +1,1086 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Manual</class>
+ <widget class="QDialog" name="Manual">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog#Manual {
+background-image: url(:/BG/manual/manual.jpg);
+}
+
+QPushButton#back {
+background-color:transparent;
+border-image:url(:/Button/manual/back.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#rotate_2 {
+background-color:transparent;
+border-image:url(:/Button/manual/rotate.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#release {
+background-color:transparent;
+border-image:url(:/Button/manual/release.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#water_2 {
+background-color:transparent;
+border-image:url(:/Button/manual/water.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#water_2:checked {
+border-image: url(:/Button/manual/water on.png);
+}
+
+QPushButton#heater_3 {
+background-color:transparent;
+border-image:url(:/Button/manual/heater.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#heater_3:checked {
+border-image: url(:/Button/manual/heater on.png);
+}
+
+QPushButton#left {
+background-color:transparent;
+border-image:url(:/Button/manual/left.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#right {
+background-color:transparent;
+border-image:url(:/Button/manual/right.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#left_cylinder {
+background-color:transparent;
+border-image:url(:/Button/manual/left cylinder.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#right_cylinder {
+background-color:transparent;
+border-image:url(:/Button/manual/right cylinder.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#x01 {
+background-color:transparent;
+border-image:url(:/Button/manual/0.1.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#x01:checked {
+border-image: url(:/Button/manual/0.1 on.png);
+}
+
+QPushButton#x1 {
+background-color:transparent;
+border-image:url(:/Button/manual/1.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#x1:checked {
+border-image: url(:/Button/manual/1 on.png);
+}
+
+QPushButton#fast {
+background-color:transparent;
+border-image:url(:/Button/manual/fast.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#fast:checked {
+border-image: url(:/Button/manual/fast on.png);
+}
+
+QPushButton#slide1{
+background-color:transparent;
+border-image: url(:/Button/main menu/off button.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#slide1:checked {
+border-image: url(:/Button/main menu/on button.png);
+}
+
+QPushButton#slide2 {
+background-color:transparent;
+border-image: url(:/Button/main menu/off button.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#slide2:checked {
+border-image: url(:/Button/main menu/on button.png);
+}
+
+QPushButton#slide3 {
+background-color:transparent;
+border-image: url(:/Button/main menu/off button.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#slide3:checked {
+border-image: url(:/Button/main menu/on button.png);
+}
+
+QPushButton#slide4 {
+background-color:transparent;
+border-image: url(:/Button/main menu/off button.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#slide4:checked {
+border-image: url(:/Button/main menu/on button.png);
+}
+
+QPushButton#slide5 {
+background-color:transparent;
+border-image: url(:/Button/main menu/off button.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#slide5:checked {
+border-image: url(:/Button/main menu/on button.png);
+}
+
+QPushButton#slide6 {
+background-color:transparent;
+border-image: url(:/Button/main menu/off button.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#slide6:checked {
+border-image: url(:/Button/main menu/on button.png);
+}
+
+QPushButton#slide7 {
+background-color:transparent;
+border-image: url(:/Button/main menu/off button.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#slide7:checked {
+border-image: url(:/Button/main menu/on button.png);
+}
+
+QPushButton#slide8 {
+background-color:transparent;
+border-image: url(:/Button/main menu/off button.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#slide8:checked {
+border-image: url(:/Button/main menu/on button.png);
+}
+
+QPushButton#slide9 {
+background-color:transparent;
+border-image: url(:/Button/main menu/off button.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#slide9:checked {
+border-image: url(:/Button/main menu/on button.png);
+}
+
+QPushButton#up {
+background-color: transparent;
+border-image: url(:/Button/manual/up.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#up:pressed {
+border-image: url(:/Button/manual/up on.png);
+}
+
+QPushButton#down {
+background-color: transparent;
+border-image: url(:/Button/manual/down.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#down:pressed {
+border-image: url(:/Button/manual/down on.png);
+}
+
+QPushButton#upmiddle {
+background-color: transparent;
+border-image: url(:/Button/manual/up middle.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#upmiddle:pressed {
+border-image: url(:/Button/manual/up middle on.png);
+}
+
+QPushButton#rightmiddle {
+background-color: transparent;
+border-image: url(:/Button/manual/right middle.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#rightmiddle:pressed {
+border-image: url(:/Button/manual/right middle on.png);
+}
+
+QPushButton#downmiddle {
+background-color: transparent;
+border-image: url(:/Button/manual/down middle.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#downmiddle:pressed {
+border-image: url(:/Button/manual/down middle on.png);
+}
+
+QPushButton#leftmiddle {
+background-color: transparent;
+border-image: url(:/Button/manual/left middle.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#leftmiddle:pressed {
+border-image: url(:/Button/manual/left middle on.png);
+}
+
+QPushButton#go {
+background-color: transparent;
+border-image: url(:/Button/manual/go.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#go:pressed {
+border-image: url(:/Button/manual/go on.png);
+}
+
+QPushButton#rotatebutton {
+background-color: transparent;
+border-image: url(:/Button/manual/rotate.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#rotatebutton:pressed {
+border-image: url(:/Button/manual/rotate on.png);
+}
+
+QPushButton#release {
+background-color: transparent;
+border-image: url(:/Button/manual/release.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#release:pressed {
+border-image: url(:/Button/manual/release on.png);
+}
+
+QPushButton#leftcylinder {
+background-color: transparent;
+border-image: url(:/Button/manual/left cylinder.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#leftcylinder:pressed {
+border-image: url(:/Button/manual/left cylinder on.png);
+}
+
+QPushButton#rightcylinder {
+background-color: transparent;
+border-image: url(:/Button/manual/right cylinder.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#rightcylinder:pressed {
+border-image: url(:/Button/manual/right cylinder on.png);
+}
+
+QPushButton#left {
+background-color: transparent;
+border-image: url(:/Button/manual/left cylinder.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#left:pressed {
+border-image: url(:/Button/manual/left cylinder on.png);
+}
+
+QPushButton#right {
+background-color: transparent;
+border-image: url(:/Button/manual/right cylinder.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+QPushButton#right:pressed {
+border-image: url(:/Button/manual/right cylinder on.png);
+}
+
+QWidget#tabWidgetPage1 {
+background-color: rgb(101, 99, 100)
+}
+
+QWidget#tabWidgetPage2 {
+background-color: rgb(101, 99, 100)
+}
+
+QWidget#tabWidgetPage3 {
+background-color: rgb(101, 99, 100)
+}
+
+QWidget#tabWidgetPage4 {
+background-color: rgb(101, 99, 100)
+}
+
+QWidget#widget_2 {
+background-color:transparent;
+border-image:url(:/Button/manual/speed.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QLabel#rotate_2 {
+color:white;
+}
+
+QLabel#release_2 {
+color:white;
+}
+
+QLabel#label {
+color:white;
+}
+
+</string>
+  </property>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>613</x>
+     <y>720</y>
+     <width>668</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="holder_x">
+   <property name="geometry">
+    <rect>
+     <x>42</x>
+     <y>213</y>
+     <width>47</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="holder_y">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>213</y>
+     <width>47</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="holder_z">
+   <property name="geometry">
+    <rect>
+     <x>178</x>
+     <y>213</y>
+     <width>47</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="heater">
+   <property name="geometry">
+    <rect>
+     <x>254</x>
+     <y>213</y>
+     <width>47</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="cylinder">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>213</y>
+     <width>47</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="water">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>450</y>
+     <width>47</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="heater_2">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>495</y>
+     <width>47</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="rotate">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>540</y>
+     <width>47</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="suction">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>585</y>
+     <width>47</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="widget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>397</x>
+     <y>142</y>
+     <width>889</width>
+     <height>577</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1000</width>
+     <height>1000</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+     <underline>false</underline>
+     <strikeout>false</strikeout>
+     <stylestrategy>PreferDefault</stylestrategy>
+     <kerning>true</kerning>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="tabletTracking">
+    <bool>false</bool>
+   </property>
+   <property name="acceptDrops">
+    <bool>false</bool>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="tabPosition">
+    <enum>QTabWidget::East</enum>
+   </property>
+   <property name="tabShape">
+    <enum>QTabWidget::Rounded</enum>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>107</width>
+     <height>173</height>
+    </size>
+   </property>
+   <property name="elideMode">
+    <enum>Qt::ElideNone</enum>
+   </property>
+   <property name="usesScrollButtons">
+    <bool>true</bool>
+   </property>
+   <property name="documentMode">
+    <bool>true</bool>
+   </property>
+   <property name="tabsClosable">
+    <bool>false</bool>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="tabBarAutoHide">
+    <bool>false</bool>
+   </property>
+   <widget class="QWidget" name="tabWidgetPage1">
+    <attribute name="title">
+     <string>HOLDER</string>
+    </attribute>
+    <widget class="QPushButton" name="up">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>401</width>
+       <height>411</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="down">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>208</y>
+       <width>401</width>
+       <height>411</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="upmiddle">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>100</y>
+       <width>200</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="rightmiddle">
+     <property name="geometry">
+      <rect>
+       <x>208</x>
+       <y>192</y>
+       <width>187</width>
+       <height>188</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="downmiddle">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>270</y>
+       <width>200</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="leftmiddle">
+     <property name="geometry">
+      <rect>
+       <x>44</x>
+       <y>183</y>
+       <width>193</width>
+       <height>195</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="go">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>87</y>
+       <width>407</width>
+       <height>411</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="rotatebutton">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>100</y>
+       <width>120</width>
+       <height>120</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="release">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>360</y>
+       <width>120</width>
+       <height>120</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="rotate_2">
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>140</y>
+       <width>81</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>ROTATE</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="release_2">
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>400</y>
+       <width>171</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>RELEASE</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tabWidgetPage2">
+    <attribute name="title">
+     <string>CYLINDER</string>
+    </attribute>
+    <widget class="QPushButton" name="leftcylinder">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>170</y>
+       <width>281</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="rightcylinder">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>170</y>
+       <width>251</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="x1">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>400</y>
+       <width>171</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>350</y>
+       <width>201</width>
+       <height>191</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="x01">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>400</y>
+       <width>171</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="fast">
+     <property name="geometry">
+      <rect>
+       <x>498</x>
+       <y>400</y>
+       <width>171</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>110</y>
+       <width>231</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>CYLINDER</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tabWidgetPage3">
+    <attribute name="title">
+     <string>WATER/HEATER</string>
+    </attribute>
+    <widget class="QPushButton" name="water_2">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>70</y>
+       <width>190</width>
+       <height>190</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="heater_3">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>70</y>
+       <width>190</width>
+       <height>190</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="left">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>320</y>
+       <width>280</width>
+       <height>190</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="right">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>320</y>
+       <width>280</width>
+       <height>190</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="slide1">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>340</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="slide2">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>390</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="slide3">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>430</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="slide4">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>480</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="slide5">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>520</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="slide6">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>570</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="slide7">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>610</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="slide8">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>340</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="slide9">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>390</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

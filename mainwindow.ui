@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#centralwidget {
+background-image: url(:/BG/main menu/main menu (new).jpg);
+}
+
+QPushButton#startauto {
+background-color: transparent;
+border-image: url(:/Button/main menu/start auto.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#home {
+background-color: transparent;
+border-image: url(:/Button/main menu/HOME.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#manual {
+background-color: transparent;
+border-image: url(:/Button/main menu/MANUAL.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#setting {
+background-color: transparent;
+border-image: url(:/Button/main menu/SETTING.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#slide1{
+background-color:transparent;
+border-image: url(:/Button/main menu/off button.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#slide1:checked {
+border-image: url(:/Button/main menu/on button.png);
+}
+
+QPushButton#slide2 {
+background-color:transparent;
+border-image: url(:/Button/main menu/off button.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#slide2:checked {
+border-image: url(:/Button/main menu/on button.png);
+}
+
+QPushButton#slide3 {
+background-color:transparent;
+border-image: url(:/Button/main menu/off button.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#slide3:checked {
+border-image: url(:/Button/main menu/on button.png);
+}
+
+QPushButton#slide4 {
+background-color:transparent;
+border-image: url(:/Button/main menu/off button.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#slide4:checked {
+border-image: url(:/Button/main menu/on button.png);
+}
+
+QPushButton#slide5 {
+background-color:transparent;
+border-image: url(:/Button/main menu/off button.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#slide5:checked {
+border-image: url(:/Button/main menu/on button.png);
+}
+
+QPushButton#slide6 {
+background-color:transparent;
+border-image: url(:/Button/main menu/off button.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#slide6:checked {
+border-image: url(:/Button/main menu/on button.png);
+}
+
+QPushButton#slide7 {
+background-color:transparent;
+border-image: url(:/Button/main menu/off button.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#slide7:checked {
+border-image: url(:/Button/main menu/on button.png);
+}
+
+QPushButton#slide8 {
+background-color:transparent;
+border-image: url(:/Button/main menu/off button.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#slide8:checked {
+border-image: url(:/Button/main menu/on button.png);
+}
+
+QPushButton#slide9 {
+background-color:transparent;
+border-image: url(:/Button/main menu/off button.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#slide9:checked {
+border-image: url(:/Button/main menu/on button.png);
+}
+
+QPushButton#close {
+background-color:transparent;
+border-image: url(:/Button/main menu/close.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QLabel#holder_x{	
+	font: 18pt &quot;MS Shell Dlg 2&quot;;
+}
+QLabel#holder_y{
+	font: 18pt &quot;MS Shell Dlg 2&quot;;
+}
+QLabel#holder_z{
+	font: 18pt &quot;MS Shell Dlg 2&quot;;
+}
+QLabel#heater{
+	font: 18pt &quot;MS Shell Dlg 2&quot;;
+}
+QLabel#cylinder{
+	font: 18pt &quot;MS Shell Dlg 2&quot;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <widget class="QPushButton" name="startauto">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>110</y>
+      <width>441</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="home">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>240</y>
+      <width>441</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="manual">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>380</y>
+      <width>441</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="setting">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>560</y>
+      <width>441</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>30</y>
+      <width>251</width>
+      <height>61</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="slide1">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>340</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoRepeat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="slide2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>380</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="slide3">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>420</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="slide4">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>460</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="slide5">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>500</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="slide6">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>540</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="slide7">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>580</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="slide8">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>340</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="slide9">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>380</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>30</y>
+      <width>171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Program</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="close">
+    <property name="geometry">
+     <rect>
+      <x>613</x>
+      <y>718</y>
+      <width>680</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="holder_x">
+    <property name="geometry">
+     <rect>
+      <x>127</x>
+      <y>227</y>
+      <width>47</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="holder_y">
+    <property name="geometry">
+     <rect>
+      <x>195</x>
+      <y>227</y>
+      <width>47</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="holder_z">
+    <property name="geometry">
+     <rect>
+      <x>264</x>
+      <y>227</y>
+      <width>47</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="heater">
+    <property name="geometry">
+     <rect>
+      <x>339</x>
+      <y>227</y>
+      <width>47</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cylinder">
+    <property name="geometry">
+     <rect>
+      <x>405</x>
+      <y>227</y>
+      <width>47</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_water">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>440</y>
+      <width>47</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_heater">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>480</y>
+      <width>47</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_rotate">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>520</y>
+      <width>47</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_suction">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>560</y>
+      <width>47</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

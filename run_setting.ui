@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Run_setting</class>
+ <widget class="QDialog" name="Run_setting">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog#Run_setting {
+background-image: url(:/BG/autorun setting/autorun setting.jpg);
+}
+
+QPushButton#add {
+background-color: transparent;
+border-image: url(:/Button/autorun setting/add.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#remove {
+background-color: transparent;
+border-image: url(:/Button/autorun setting/remove.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#save {
+background-color: transparent;
+border-image: url(:/Button/autorun setting/save.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#back {
+background-color:transparent;
+border-image:url(:/Button/autorun setting/back.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QTableWidget#tableWidget {
+background-color:rgb(212, 212, 212)
+}
+
+</string>
+  </property>
+  <widget class="QPushButton" name="add">
+   <property name="geometry">
+    <rect>
+     <x>464</x>
+     <y>716</y>
+     <width>197</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="remove">
+   <property name="geometry">
+    <rect>
+     <x>648</x>
+     <y>713</y>
+     <width>248</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="save">
+   <property name="geometry">
+    <rect>
+     <x>884</x>
+     <y>713</y>
+     <width>196</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>1067</x>
+     <y>713</y>
+     <width>215</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="holder_x">
+   <property name="geometry">
+    <rect>
+     <x>887</x>
+     <y>239</y>
+     <width>47</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="holder_y">
+   <property name="geometry">
+    <rect>
+     <x>955</x>
+     <y>239</y>
+     <width>47</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="holder_z">
+   <property name="geometry">
+    <rect>
+     <x>1023</x>
+     <y>239</y>
+     <width>47</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="heater">
+   <property name="geometry">
+    <rect>
+     <x>1099</x>
+     <y>239</y>
+     <width>47</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="cylinder">
+   <property name="geometry">
+    <rect>
+     <x>1165</x>
+     <y>239</y>
+     <width>47</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>190</y>
+     <width>761</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string>New Row</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>New Row</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>New Row</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>New Row</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>New Row</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>New Row</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>New Column</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>New Column</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>New Column</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

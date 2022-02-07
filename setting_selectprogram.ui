@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Setting_selectprogram</class>
+ <widget class="QDialog" name="Setting_selectprogram">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog#Setting_selectprogram {
+background-image:url( :/BG/setting_selectprogram/setting_selectprogram.png);
+}
+
+QPushButton#ok {
+background-color: transparent;
+border-image: url( :/Button/setting_selectprogram/ok.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#cancel {
+background-color: transparent;
+border-image: url( :/Button/setting_selectprogram/cancel.png);
+background: none;
+border: none;
+background-repeat: none;
+}</string>
+  </property>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>130</y>
+     <width>311</width>
+     <height>71</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ok">
+   <property name="geometry">
+    <rect>
+     <x>-30</x>
+     <y>231</y>
+     <width>300</width>
+     <height>95</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>230</y>
+     <width>300</width>
+     <height>95</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
