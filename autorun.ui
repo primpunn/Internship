@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Autorun</class>
+ <widget class="QDialog" name="Autorun">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog#Autorun {
+background-image: url(:/BG/autorun/autorun.jpg);
+}
+
+QPushButton#pause {
+background-color: transparent;
+border-image: url(:/Button/autorun/pause.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#cancel {
+background-color: transparent;
+border-image: url(:/Button/autorun/cancel.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#back {
+background-color: transparent;
+border-image: url(:/Button/autorun/back.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QProgressBar#slide1_2 {
+background-color: transparent;
+border-image: url(:/Button/autorun/percentage slide.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QProgressBar#slide2_2 {
+background-color: transparent;
+border-image: url(:/Button/autorun/percentage slide.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QProgressBar#slide3_2 {
+background-color: transparent;
+border-image: url(:/Button/autorun/percentage slide.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QProgressBar#slide4_2 {
+background-color: transparent;
+border-image: url(:/Button/autorun/percentage slide.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QProgressBar#slide5_2 {
+background-color: transparent;
+border-image: url(:/Button/autorun/percentage slide.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QProgressBar#slide6_2 {
+background-color: transparent;
+border-image: url(:/Button/autorun/percentage slide.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QProgressBar#slide7_2 {
+background-color: transparent;
+border-image: url(:/Button/autorun/percentage slide.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QProgressBar#slide8_2 {
+background-color: transparent;
+border-image: url(:/Button/autorun/percentage slide.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QProgressBar#slide9_2 {
+background-color: transparent;
+border-image: url(:/Button/autorun/percentage slide.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#slide1{
+background-color:transparent;
+border-image: url(:/Button/main menu/off button.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#slide1:checked {
+border-image: url(:/Button/main menu/on button.png);
+}
+
+QPushButton#slide2 {
+background-color:transparent;
+border-image: url(:/Button/main menu/off button.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#slide2:checked {
+border-image: url(:/Button/main menu/on button.png);
+}
+
+QPushButton#slide3 {
+background-color:transparent;
+border-image: url(:/Button/main menu/off button.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#slide3:checked {
+border-image: url(:/Button/main menu/on button.png);
+}
+
+QPushButton#slide4 {
+background-color:transparent;
+border-image: url(:/Button/main menu/off button.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#slide4:checked {
+border-image: url(:/Button/main menu/on button.png);
+}
+
+QPushButton#slide5 {
+background-color:transparent;
+border-image: url(:/Button/main menu/off button.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#slide5:checked {
+border-image: url(:/Button/main menu/on button.png);
+}
+
+QPushButton#slide6 {
+background-color:transparent;
+border-image: url(:/Button/main menu/off button.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#slide6:checked {
+border-image: url(:/Button/main menu/on button.png);
+}
+
+QPushButton#slide7 {
+background-color:transparent;
+border-image: url(:/Button/main menu/off button.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#slide7:checked {
+border-image: url(:/Button/main menu/on button.png);
+}
+
+QPushButton#slide8 {
+background-color:transparent;
+border-image: url(:/Button/main menu/off button.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#slide8:checked {
+border-image: url(:/Button/main menu/on button.png);
+}
+
+QPushButton#slide9 {
+background-color:transparent;
+border-image: url(:/Button/main menu/off button.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#slide9:checked {
+border-image: url(:/Button/main menu/on button.png);
+}
+
+</string>
+  </property>
+  <widget class="QPushButton" name="pause">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>714</y>
+     <width>288</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>713</y>
+     <width>268</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>1014</x>
+     <y>713</y>
+     <width>268</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="slide1_2">
+   <property name="geometry">
+    <rect>
+     <x>53</x>
+     <y>195</y>
+     <width>81</width>
+     <height>140</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+     <strikeout>false</strikeout>
+     <stylestrategy>PreferDefault</stylestrategy>
+     <kerning>true</kerning>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="value">
+    <number>24</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="textVisible">
+    <bool>true</bool>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <property name="textDirection">
+    <enum>QProgressBar::TopToBottom</enum>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="slide2_2">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>196</y>
+     <width>81</width>
+     <height>140</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+     <strikeout>false</strikeout>
+     <stylestrategy>PreferDefault</stylestrategy>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="value">
+    <number>24</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <property name="textDirection">
+    <enum>QProgressBar::TopToBottom</enum>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="slide3_2">
+   <property name="geometry">
+    <rect>
+     <x>407</x>
+     <y>195</y>
+     <width>81</width>
+     <height>140</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+     <strikeout>false</strikeout>
+     <stylestrategy>PreferDefault</stylestrategy>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="value">
+    <number>24</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <property name="textDirection">
+    <enum>QProgressBar::TopToBottom</enum>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="slide4_2">
+   <property name="geometry">
+    <rect>
+     <x>584</x>
+     <y>196</y>
+     <width>81</width>
+     <height>140</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+     <strikeout>false</strikeout>
+     <stylestrategy>PreferDefault</stylestrategy>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="value">
+    <number>24</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <property name="textDirection">
+    <enum>QProgressBar::TopToBottom</enum>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="slide5_2">
+   <property name="geometry">
+    <rect>
+     <x>761</x>
+     <y>196</y>
+     <width>81</width>
+     <height>140</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+     <strikeout>false</strikeout>
+     <stylestrategy>PreferDefault</stylestrategy>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="value">
+    <number>24</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <property name="textDirection">
+    <enum>QProgressBar::TopToBottom</enum>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="slide6_2">
+   <property name="geometry">
+    <rect>
+     <x>144</x>
+     <y>466</y>
+     <width>81</width>
+     <height>140</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+     <strikeout>false</strikeout>
+     <stylestrategy>PreferDefault</stylestrategy>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="value">
+    <number>24</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <property name="textDirection">
+    <enum>QProgressBar::TopToBottom</enum>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="slide7_2">
+   <property name="geometry">
+    <rect>
+     <x>319</x>
+     <y>466</y>
+     <width>81</width>
+     <height>140</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+     <strikeout>false</strikeout>
+     <stylestrategy>PreferDefault</stylestrategy>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="value">
+    <number>24</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <property name="textDirection">
+    <enum>QProgressBar::TopToBottom</enum>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="slide8_2">
+   <property name="geometry">
+    <rect>
+     <x>495</x>
+     <y>466</y>
+     <width>81</width>
+     <height>140</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+     <strikeout>false</strikeout>
+     <stylestrategy>PreferDefault</stylestrategy>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="value">
+    <number>24</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <property name="textDirection">
+    <enum>QProgressBar::TopToBottom</enum>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="slide9_2">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>466</y>
+     <width>81</width>
+     <height>140</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+     <strikeout>false</strikeout>
+     <stylestrategy>PreferDefault</stylestrategy>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="value">
+    <number>24</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <property name="textDirection">
+    <enum>QProgressBar::TopToBottom</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="holder_x">
+   <property name="geometry">
+    <rect>
+     <x>928</x>
+     <y>232</y>
+     <width>47</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="holder_y">
+   <property name="geometry">
+    <rect>
+     <x>996</x>
+     <y>232</y>
+     <width>47</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="holder_z">
+   <property name="geometry">
+    <rect>
+     <x>1064</x>
+     <y>232</y>
+     <width>47</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="heater">
+   <property name="geometry">
+    <rect>
+     <x>1140</x>
+     <y>232</y>
+     <width>47</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="cylinder">
+   <property name="geometry">
+    <rect>
+     <x>1206</x>
+     <y>232</y>
+     <width>47</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="slide1">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>360</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="slide2">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>400</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="slide3">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>450</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="slide4">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>490</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="slide5">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>530</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="slide6">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>580</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="slide7">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>620</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="slide8">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>350</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="slide9">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>400</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

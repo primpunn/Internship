@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>autorun_setting</class>
+ <widget class="QDialog" name="autorun_setting">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#autorun_setting {
+background-image: url(:/BG/auto setting/autorun setting.jpg);
+}
+
+QPushButton#add {
+background-color:transparent;
+border-image: url(:/Button/auto setting/add.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#remove {
+background-color:transparent;
+border-image: url(:/Button/auto setting/remove.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#save {
+background-color:transparent;
+border-image: url(:/Button/auto setting/save.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+QPushButton#back {
+background-color:transparent;
+border-image: url(:/Button/auto setting/back.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+</string>
+  </property>
+  <widget class="QPushButton" name="add">
+   <property name="geometry">
+    <rect>
+     <x>471</x>
+     <y>711</y>
+     <width>180</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="remove">
+   <property name="geometry">
+    <rect>
+     <x>641</x>
+     <y>701</y>
+     <width>249</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="save">
+   <property name="geometry">
+    <rect>
+     <x>883</x>
+     <y>681</y>
+     <width>188</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>1065</x>
+     <y>651</y>
+     <width>213</width>
+     <height>150</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="holder_x">
+   <property name="geometry">
+    <rect>
+     <x>887</x>
+     <y>239</y>
+     <width>47</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="holder_y">
+   <property name="geometry">
+    <rect>
+     <x>955</x>
+     <y>239</y>
+     <width>47</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="holder_z">
+   <property name="geometry">
+    <rect>
+     <x>1023</x>
+     <y>239</y>
+     <width>47</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="heater">
+   <property name="geometry">
+    <rect>
+     <x>1099</x>
+     <y>239</y>
+     <width>47</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="cylinder">
+   <property name="geometry">
+    <rect>
+     <x>1165</x>
+     <y>239</y>
+     <width>47</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
